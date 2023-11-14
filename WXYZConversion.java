@@ -11,8 +11,8 @@ public class WXYZConversion
         String secondTransformation = firstTransformation.replaceAll("(X)(?=..[^X])", "E");
         String thirdTransformation = secondTransformation.replaceAll("YZ", "E");
 
-        System.out.println(manualSolution.equals(thirdTransformation)); // Debug use: this should return true.
+        System.out.println(manualSolution.equals(thirdTransformation)); // Debug use: this should print "true"
 
-        System.out.println("Five characters starting at (including) the 432nd character: " + thirdTransformation.substring(431, 436));
+        System.out.println("Five characters starting at (including) the 432nd character: " + thirdTransformation.substring(431, 436)); // Prints "RLETQ"
     }
 }

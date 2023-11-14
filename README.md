@@ -9,7 +9,7 @@ JNPGCZBUXHJAVWXGWIZAXTIQYMRRSSYDNUWCJYVZVZZCYZYKWUMOJNZYUJIKCWXUVDDNOYJDXYIXADXJ
 Apply the following transformations to this string in sequence:
 - Remove all occurrences of W.
 - If the character three positions after X is not X, change that (former) character to E.
-- Change all instances of the consequtive charaters YZ to E.
+- Change all instances of the consecutive charaters YZ to E.
 
 Please provide the 5 characters in the resulting string starting from the 432-th position (counting from the first character as top).
 
